@@ -1,4 +1,4 @@
-# WhatsApp Clone
+# Modern Chat App
 
 A modern WhatsApp-inspired realtime messaging application built with React, Vite, Tailwind CSS, Socket.IO, and WebRTC.  
 The project features realtime chat, audio/video calling, responsive UI, dark/light mode, and a clean modern messaging experience inspired by WhatsApp, Telegram, and Discord.
@@ -67,13 +67,13 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/whatsapp-clone.git
+git clone https://github.com/dev-kamal/modern-chat-app.git
 ```
 
 Go to the project directory:
 
 ```bash
-cd whatsapp-clone
+cd modern-chat-app
 ```
 
 Install dependencies:

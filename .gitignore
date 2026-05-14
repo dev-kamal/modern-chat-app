@@ -1,3 +1,11 @@
+# Dependencies
+node_modules
+
+# Production Build
+dist
+dist-ssr
+build
+
 # Logs
 logs
 *.log
@@ -7,18 +15,47 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# Local Config
 *.local
 
-# Editor directories and files
+# Coverage
+coverage
+
+# Cache
+.cache
+.eslintcache
+
+# Editor Directories and Files
 .vscode/*
+!.vscode/settings.json
 !.vscode/extensions.json
 .idea
 .DS_Store
+
+# OS Files
+Thumbs.db
+
+# Visual Studio
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+
+# Swap Files
 *.sw?
+*.swp
+
+# Temporary Files
+tmp
+temp
+
+# Husky
+.husky/_
+
+# TypeScript
+*.tsbuildinfo
